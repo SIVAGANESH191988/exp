@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS products (
     category VARCHAR(100) NOT NULL,
     description TEXT,
     image_url VARCHAR(500),
-    stock_quantity INT DEFAULT 100,
+    stock_quantity INT DEFAULT 1001,
     is_featured BOOLEAN DEFAULT FALSE,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
